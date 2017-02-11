@@ -1,2 +1,2 @@
 # shenzhenjs.github.io
-shenzhenjs sites
+针对深圳前端交流群 `247687975`　的介绍主页
