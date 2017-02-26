@@ -13,11 +13,6 @@ menu:
     url: /
   archives:
     url: /archives
-  tags:
-    url: /tags
-  th-list:
-    text: Categories
-    url: /categories
   github:
     url: https://github.com/shenzhenjs
     target: _blank
@@ -25,8 +20,9 @@ menu:
     url: http://www.weibo.com/jikey
     target: _blank
   link:
-    text: 测试
-    url: /custom
+    text: 联盟官网
+    url: http://jsfront.org
+    target: _blank
 
 rss: /atom.xml
 
@@ -60,10 +56,9 @@ show_last_updated: true
 share: true
 
 # 是否开启打赏，关闭 reward: false
-reward:
-  title: 谢谢大爷~
-  wechat: /img/wechat.jpg     #微信，关闭设为 false
-  alipay: /img/alipay.jpg     #支付宝，关闭设为 false
+reward: false
+ # wechat: false # /img/wechat.jpg     #微信，关闭设为 false
+ # alipay: false # /img/alipay.jpg     #支付宝，关闭设为 false
 
 # 是否开启搜索
 search: true
@@ -99,7 +94,7 @@ less:
     - source/css/style.less
 
 # 是否开启多说评论，填写你在多说创建的站点二级域名
-duoshuo: ysblog
+duoshuo: shenzhenjs
 # 是否开启多说评论计数（该服务不稳定）
 duoshuo_count: false
 # 使用 disqus 时关闭多说评论

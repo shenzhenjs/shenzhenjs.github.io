@@ -4,7 +4,7 @@
 
 # Site
 title: 深圳前端交流群 - 247687975
-subtitle:
+subtitle: 前端联盟深圳地区唯一官方网站
 description: 深圳前端交流群是深圳地区浏览量最大的中文前端门户网站，是由深圳前端从业人员发起，为深圳数以万计的互联网用户提供富有创意的前端新生活。
 author:
 language: zh-CN
@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://shenzhenjs.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
