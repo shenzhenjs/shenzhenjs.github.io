@@ -1,0 +1,137 @@
+#main {
+  float: none;
+}
+.main-body-inner {
+  padding-right: 0;
+}
+#sidebar,
+.main-body-header {
+  display: none;
+}
+.main-body-inner {
+  background: #fff;
+}
+.user-list {
+  margin-right: -30px;
+  list-style: none;
+}
+.user-list li {
+  float: left;
+  width: 245px;
+  height: 225px;
+  margin: 0 10px 15px 10px;
+}
+.user-list li img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.user-list li .user-title {
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+.user-list li .user-title h2 {
+  font-size: 22px;
+  font-weight: normal;
+}
+.user-list li .user-title h2 em {
+  font-style: normal;
+}
+.user-list li .user-title h2 * {
+  display: inline-block;
+  vertical-align: middle;
+}
+.user-list li .user-title a {
+  color: #69c;
+}
+.user-list li .user-title a:hover {
+  color: #3a73ad;
+}
+.user-list li .user-title .no {
+  margin-right: 10px;
+  color: #bbb;
+}
+.useinfo-word .sub {
+  color: #999;
+  height: 45px;
+  line-height: 21px;
+  font-size: 14px;
+  margin-left: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.desc-info {
+  text-align: left;
+  padding-left: 15px;
+  font-size: 16px;
+}
+.user-list .desc {
+  vertical-align: top;
+}
+.userinfo-img,
+.userinfo-content .desc {
+  display: inline-block;
+}
+.userinfo-content img {
+  -webkit-transition: 0.3s;
+}
+.userinfo-content img:hover {
+  -webkit-transform: scale(1.2);
+}
+.article-summary {
+  overflow: hidden;
+}
+.article-summary .article-summary-inner {
+  margin-right: 0;
+}
+.article-summary a:hover {
+  color: #709400;
+}
+.article-duoshuo {
+  padding: 30px;
+}
+.widget ol,
+.article-entry ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+  overflow: hidden;
+}
+.article-single {
+  padding: 0;
+}
+.article-row {
+  float: none;
+  padding: 0 0px 0px 0;
+}
+.article-city-title h1 {
+  font-size: 18px;
+  border-bottom: 1px solid #eee;
+  line-height: 40px;
+  font-weight: normal;
+  text-indent: 2em;
+}
+.article-city-inner {
+  padding: 0px 20px;
+}
+.article-footer {
+  padding: 30px 0 0 30px;
+}
+.article-item {
+  clear: both;
+  overflow: hidden;
+}
+.useinfo-word {
+  margin-top: 10px;
+}
+.article-area .userinfo-content .desc {
+  margin-top: 20px;
+}
+.article-area .userinfo-content .desc-info {
+  line-height: 30px;
+}
+.article-city {
+  padding-top: 10px;
+}

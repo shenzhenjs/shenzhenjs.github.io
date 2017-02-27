@@ -12,7 +12,11 @@ menu:
     text: 主页
     url: /
   archives:
+    text: 文章
     url: /archives
+  about:
+    text: 英雄榜
+    url: /about
   github:
     url: https://github.com/shenzhenjs
     target: _blank

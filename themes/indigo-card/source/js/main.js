@@ -1,16 +1,16 @@
 (function (w, d) {
 
     var body = d.body,
-        $ = d.querySelector.bind(d),
-        $$ = d.querySelectorAll.bind(d),
-        root = $('html'),
-        gotop = $('#gotop'),
-        menu = $('#menu'),
-        header = $('#header'),
-        mask = $('#mask'),
-        menuToggle = $('#menu-toggle'),
-        menuOff = $('#menu-off'),
-        loading = $('#loading'),
+        id = d.querySelector.bind(d),
+        all = d.querySelectorAll.bind(d),
+        root = id('html'),
+        gotop = id('#gotop'),
+        menu = id('#menu'),
+        header = id('#header'),
+        mask = id('#mask'),
+        menuToggle = id('#menu-toggle'),
+        menuOff = id('#menu-off'),
+        loading = id('#loading'),
         animate = w.requestAnimationFrame,
         scrollSpeed = 200 / (1000 / 60),
         forEach = Array.prototype.forEach,
@@ -57,7 +57,7 @@
             }
         },
         toggleMenu: function (flag) {
-            var main = $('#main');
+            var main = id('#main');
             if (flag) {
                 menu.classList.remove('hide');
 
@@ -95,7 +95,7 @@
             }
         },
         toc: (function () {
-            var toc = $('#post-toc');
+            var toc = id('#post-toc');
 
             if (!toc || !toc.children.length) {
                 return {
@@ -104,17 +104,17 @@
                 }
             }
 
-            var bannerH = $('.post-header').clientHeight,
+            var bannerH = id('.post-header').clientHeight,
                 headerH = header.clientHeight,
-                titles = $('#post-content').querySelectorAll('h1, h2, h3, h4, h5, h6');
+                titles = id('#post-content').querySelectorAll('h1, h2, h3, h4, h5, h6');
 
             toc.querySelector('a[href="#' + titles[0].id + '"]').parentNode.classList.add('active');
 
-            forEach.call($$('a[href^="#"]'), function (el) {
+            forEach.call(all('a[href^="#"]'), function (el) {
 
                 el.addEventListener('click', function (e) {
                     e.preventDefault();
-                    var top = offset($('[id="' + decodeURIComponent(this.hash).substr(1) + '"]')).y - headerH;
+                    var top = offset(id('[id="' + decodeURIComponent(this.hash).substr(1) + '"]')).y - headerH;
                     // animate(Blog.goTop.bind(Blog, top));
                     docEl.scrollTop = top;
                 })
@@ -143,7 +143,7 @@
         })(),
         hideOnMask: [],
         modal: function (target) {
-            this.$modal = $(target);
+            this.$modal = id(target);
             this.$off = this.$modal.querySelector('.close');
 
             var _this = this;
@@ -176,12 +176,12 @@
         },
         share: function () {
 
-            var pageShare = $('#pageShare'),
-                fab = $('#shareFab');
+            var pageShare = id('#pageShare'),
+                fab = id('#shareFab');
 
             var shareModal = new this.modal('#globalShare');
 
-            $('#menuShare').addEventListener(even, shareModal.toggle);
+            id('#menuShare').addEventListener(even, shareModal.toggle);
 
             if (fab) {
                 fab.addEventListener(even, function () {
@@ -196,30 +196,30 @@
             var wxModal = new this.modal('#wxShare');
             wxModal.onHide = shareModal.hide;
 
-            forEach.call($$('.wxFab'), function (el) {
+            forEach.call(all('.wxFab'), function (el) {
                 el.addEventListener(even, wxModal.toggle)
             })
 
         },
         search: function () {
-            var searchWrap = $('#search-wrap');
+            var searchWrap = id('#search-wrap');
 
             function toggleSearch() {
                 searchWrap.classList.toggle('in');
             }
 
-            $('#search').addEventListener(even, toggleSearch);
+            id('#search').addEventListener(even, toggleSearch);
         },
         reward: function () {
             var modal = new this.modal('#reward')
 
-            $('#rewardBtn').addEventListener(even, modal.toggle)
+            id('#rewardBtn').addEventListener(even, modal.toggle)
         },
         waterfall: function () {
 
             if (w.innerWidth < 760) return;
 
-            forEach.call($$('.waterfall'), function (el) {
+            forEach.call(all('.waterfall'), function (el) {
                 var childs = el.querySelectorAll('.waterfall-item');
                 var columns = [0, 0];
 
@@ -238,7 +238,7 @@
             el.parentNode.parentNode.classList.toggle('expand')
         },
         page: (function () {
-            var $elements = $$('.fade, .fade-scale');
+            var $elements = all('.fade, .fade-scale');
             var visible = false;
 
             return {
@@ -395,7 +395,7 @@
                 })
             }
 
-            forEach.call($$('.img-lightbox'), function (el) {
+            forEach.call(all('.img-lightbox'), function (el) {
                 new LightBox(el)
             })
         })(),
@@ -420,8 +420,12 @@
         w.lazyScripts && w.lazyScripts.length && Blog.loadScript(w.lazyScripts)
     });
 
+    if(!menuToggle){
+        return
+    }
+
     var ignoreUnload = false;
-    $('a[href^="mailto"]').addEventListener(even, function () {
+    id('a[href^="mailto"]').addEventListener(even, function () {
         ignoreUnload = true;
     });
     w.addEventListener('beforeunload', function (e) {
@@ -482,8 +486,8 @@
 
     Blog.noop = noop;
     Blog.even = even;
-    Blog.$ = $;
-    Blog.$$ = $$;
+    Blog.id = id;
+    Blog.all = all;
 
     Object.keys(Blog).reduce(function (g, e) {
         g[e] = Blog[e];

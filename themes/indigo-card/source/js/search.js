@@ -2,14 +2,14 @@
 
     var G = window || this,
         even = G.BLOG.even,
-        $ = G.BLOG.$,
-        searchIco = $('#search'),
-        searchWrap = $('#search-wrap'),
-        keyInput = $('#key'),
-        back = $('#back'),
-        searchPanel = $('#search-panel'),
-        searchResult = $('#search-result'),
-        searchTpl = $('#search-tpl').innerHTML,
+        id = G.BLOG.id,
+        searchIco = id('#search'),
+        searchWrap = id('#search-wrap'),
+        keyInput = id('#key'),
+        back = id('#back'),
+        searchPanel = id('#search-panel'),
+        searchResult = id('#search-result'),
+        searchTpl = id('#search-tpl').innerHTML,
         JSON_DATA = (G.BLOG.ROOT + '/content.json').replace(/\/{2}/g, '/'),
         searchData;
 
@@ -48,7 +48,7 @@
     }
 
     var noop = G.BLOG.noop;
-    var root = $('html');
+    var root = id('html');
 
     var Control = {
         show: function () {
