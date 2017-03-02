@@ -1,0 +1,132 @@
+[
+  {
+    "id": "1",
+    "username": "jikeytang",
+    "name": "豪情",
+    "blog": "http://jikey.cnblogs.com",
+    "github": "http://github.com/jikeytang",
+    "website": "http://www.jscss.me",
+    "word": "一直在打杂从未被超越",
+    "avatar": "https://avatars0.githubusercontent.com/u/539745?v=3&s=400"
+  },
+  {
+    "id": "3",
+    "username": "mkxiansheng",
+    "name": "mk先生",
+    "blog": "http://mk.doufuf.com/",
+    "github": "https://github.com/mkxiansheng",
+    "website": "http://mk.doufuf.com/",
+    "word": "做一个优雅的IT诗人",
+    "avatar": "http://mk.doufuf.com/content/images/2016/10/64a35aedf973bab7ca0bd21494cced0c-1.jpg"
+  },
+  {
+    "id": "2",
+    "username": "bailnl",
+    "name": "bailnl",
+    "blog": "http://blog.bailnl.com",
+    "github": "http://github.com/bailnl",
+    "website": "http://bailnl.com",
+    "word": "切图的",
+    "avatar": "https://avatars0.githubusercontent.com/u/2436993?v=3&s=88"
+  },
+  {
+    "id": "4",
+    "username": "dreamer",
+    "name": "dreamer",
+    "blog": "http://94dreamer.com",
+    "github": "http://github.com/94dreamer",
+    "website": "http://94dreamer.com",
+    "word": "dream in code",
+    "avatar": "https://avatars0.githubusercontent.com/u/15634204?v=3&s=460"
+  },
+  {
+    "id": "5",
+    "username": "tonylihc",
+    "name": "tonylihc",
+    "blog": "http://tonylihc.github.io",
+    "github": "http://github.com/tonylihc",
+    "website": "http://tonylihc.github.io",
+    "word": "happycoding",
+    "avatar": "https://avatars0.githubusercontent.com/u/12186510?v=3&s=460"
+  },
+  {
+    "id": "6",
+    "username": "GusChen",
+    "name": "小鱼Gus",
+    "blog": "http://guschen.github.io",
+    "github": "https://github.com/guschen",
+    "website": "http://guschen.github.io",
+    "word": "我差不多是一个条咸鱼了",
+    "avatar": "https://avatars2.githubusercontent.com/u/13878532?v=3&s=460"
+  },
+  {
+    "id": "7",
+    "username": "Small Fish",
+    "name": "Weyl",
+    "blog": "https://hiddaorear.github.io/",
+    "github": "https://github.com/hiddaorear",
+    "website": "https://hiddaorear.github.io/",
+    "word": "不与人物接，不为山海游。终生伏几案，天地一书囚。",
+    "avatar": "https://avatars0.githubusercontent.com/u/7558902?v=3&s=460"
+  },
+  {
+    "id": "8",
+    "username": "sx00xs",
+    "name": "Tom Huang",
+    "blog": "http://www.cnblogs.com/sx00xs/",
+    "github": "https://github.com/sx00xs",
+    "website": "https://sx00xs.github.io/",
+    "word": "我定能成功",
+    "avatar": "https://avatars1.githubusercontent.com/u/22197744?v=3&s=460"
+  },
+  {
+    "id": "9",
+    "username": "sucoding",
+    "name": "随心",
+    "blog": "https://summer.github.io",
+    "github": "https://github.com/sucoding",
+    "website": "https://summer.github.io",
+    "word": "随心 bilibili ~ ",
+    "avatar": "https://avatars2.githubusercontent.com/u/7702750?v=3&s=460"
+  },
+  {
+    "id": "10",
+    "username": "chnhyg",
+    "name": "Wind",
+    "blog": "https://uxwind.me/",
+    "github": "https://github.com/chnhyg",
+    "website": "https://uxwind.me/",
+    "word": "一分耕耘，一分收获",
+    "avatar": "https://avatars0.githubusercontent.com/u/6149547"
+  },
+  {
+    "id": "11",
+    "username": "sunshineshyboy",
+    "name": "Evan",
+    "blog": "none",
+    "github": "https://github.com/sunshineshyboy",
+    "website": "none",
+    "word": "行到水穷处，坐看云起时",
+    "avatar": "https://avatars2.githubusercontent.com/u/19756031?v=3&s=460"
+  },
+  {
+    "id": "12",
+    "username": "icessun",
+    "name": "icessun",
+    "blog": "https://github.com/icessun",
+    "github": "https://github.com/icessun",
+    "website": "https://github.com/icessun",
+    "word": "还在路上~ ",
+    "avatar": "https://avatars2.githubusercontent.com/u/7702750?v=3&s=460"
+  },
+  {
+    "id": "13",
+    "username": "CheDabang",
+    "name": "CheDabang",
+    "blog": "http://www.jianshu.com/u/025df949ff39",
+    "github": "https://github.com/CheDabang",
+    "website": "https://chedabang.github.io",
+    "word": "欲成诸佛龙象，先做众生牛马。欲成前端大树，需敲万千代码。",
+    "avatar": "https://avatars3.githubusercontent.com/u/16935919?v=3&s=460"
+  }
+]

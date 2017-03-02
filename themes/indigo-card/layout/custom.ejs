@@ -1,0 +1,22 @@
+---
+layout: false
+---
+<!DOCTYPE html>
+<html>
+<%- partial('_partial/head') %>
+<body>
+<%- partial('_partial/loading') %>
+<%- partial('_partial/menu') %>
+<main id="main">
+    <%- partial('_partial/header', {
+        title: '英雄榜',
+        hdClass: 'archives-header'
+    }) %>
+    <%- page.content %>
+    <%- partial('_partial/footer') %>
+</main>
+<%- partial('_partial/after-footer') %>
+<%- partial('_partial/script') %>
+</body>
+</html>
+
