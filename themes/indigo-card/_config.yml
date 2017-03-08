@@ -14,6 +14,12 @@ menu:
   archives:
     text: 文章
     url: /archives
+  hr:
+    text: 招聘
+    url: categories/hr
+  job:
+    text: 找工作
+    url: categories/job/
   about:
     text: 英雄榜
     url: /about
