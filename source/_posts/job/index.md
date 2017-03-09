@@ -1,5 +1,5 @@
 ---
-title: 庞飞龙求职简历
+title: 【求职】-庞飞龙求职简历
 date: 2017-03-08 22:30:12
 type: "categories"
 categories: job

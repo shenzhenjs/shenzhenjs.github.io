@@ -18,7 +18,7 @@ menu:
     text: 招聘
     url: categories/hr
   job:
-    text: 找工作
+    text: 求职
     url: categories/job/
   about:
     text: 英雄榜
