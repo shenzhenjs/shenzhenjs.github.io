@@ -14,14 +14,17 @@ menu:
   archives:
     text: 文章
     url: /archives
+  hr:
+    text: 招聘
+    url: categories/hr
+  job:
+    text: 求职
+    url: categories/job/
   about:
     text: 英雄榜
     url: /about
   github:
     url: https://github.com/shenzhenjs
-    target: _blank
-  weibo:
-    url: http://www.weibo.com/jikey
     target: _blank
   link:
     text: 联盟官网
@@ -31,7 +34,7 @@ menu:
 rss: /atom.xml
 
 # 你的头像url
-avatar: /img/avatar.jpg
+avatar: https://avatars0.githubusercontent.com/u/25519649?v=3&s=200
 # favicon
 favicon: /favicon.ico
 
