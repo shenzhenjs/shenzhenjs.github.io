@@ -23,6 +23,9 @@ menu:
   about:
     text: 英雄榜
     url: /about
+  works:
+    text: 作品展示
+    url: /works
   github:
     url: https://github.com/shenzhenjs
     target: _blank

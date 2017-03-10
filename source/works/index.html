@@ -1,0 +1,36 @@
+---
+layout: works
+title: 作品展示
+type: "categories"
+categories: 作品展示
+---
+<link rel="stylesheet" type="text/css" href="/css/my/common.css"/>
+<div class="article-row">
+    <article class="article article-summary">
+        <div class="article-summary-inner">
+            <div id="app" class="article-city">
+                <div class="article-item">
+                    <div class="article-city-inner">
+                        <all-works-list :all-works-info="szWorks"></all-works-list>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+<script id="tpl-works-list">
+    var tplWorksList =
+        `<div class="works-box clearfix container">
+            <div v-for="(item, index) in allWorksInfo" class="cols-sm-6 cols-md-3 cols-lg-12">
+                <div class="worls-list">
+                    <img :src="item.works_img" :title="item.works_img">
+                    <p v-text="item.works_name" :title="item.works_name"></p>
+                    <p v-text="item.works_desc" :title="item.works_desc"></p>
+                    <p v-text="item.user_name" :title="item.user_name"></p>
+                </div>
+            </div>
+        </div>`
+</script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/vue.min.js"></script>
+<script src="/js/my/works.js"></script>
