@@ -26,9 +26,6 @@ menu:
   github:
     url: https://github.com/shenzhenjs
     target: _blank
-  weibo:
-    url: http://www.weibo.com/jikey
-    target: _blank
   link:
     text: 联盟官网
     url: http://jsfront.org
@@ -37,7 +34,7 @@ menu:
 rss: /atom.xml
 
 # 你的头像url
-avatar: /img/avatar.jpg
+avatar: https://avatars0.githubusercontent.com/u/25519649?v=3&s=200
 # favicon
 favicon: /favicon.ico
 
