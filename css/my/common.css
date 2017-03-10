@@ -1,0 +1,206 @@
+#main {
+  float: none;
+}
+.main-body-inner {
+  padding-right: 0;
+}
+#sidebar,
+.main-body-header {
+  display: none;
+}
+.main-body-inner {
+  background: #fff;
+}
+.user-list {
+  margin-right: -30px;
+  list-style: none;
+}
+.user-list li {
+  float: left;
+  width: 245px;
+  height: 225px;
+  margin: 0 10px 15px 10px;
+}
+.user-list li img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.user-list li .user-title {
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+.user-list li .user-title h2 {
+  font-size: 22px;
+  font-weight: normal;
+}
+.user-list li .user-title h2 em {
+  font-style: normal;
+}
+.user-list li .user-title h2 * {
+  display: inline-block;
+  vertical-align: middle;
+}
+.user-list li .user-title a {
+  color: #69c;
+}
+.user-list li .user-title a:hover {
+  color: #3a73ad;
+}
+.user-list li .user-title .no {
+  margin-right: 10px;
+  color: #bbb;
+}
+.useinfo-word .sub {
+  color: #999;
+  height: 45px;
+  line-height: 21px;
+  font-size: 14px;
+  margin-left: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.desc-info {
+  text-align: left;
+  padding-left: 15px;
+  font-size: 16px;
+}
+.user-list .desc {
+  vertical-align: top;
+}
+.userinfo-img,
+.userinfo-content .desc {
+  display: inline-block;
+}
+.userinfo-content img {
+  -webkit-transition: 0.3s;
+}
+.userinfo-content img:hover {
+  -webkit-transform: scale(1.2);
+}
+.article-summary {
+  overflow: hidden;
+}
+.article-summary .article-summary-inner {
+  margin-right: 0;
+}
+.article-summary a:hover {
+  color: #709400;
+}
+.article-duoshuo {
+  padding: 30px;
+}
+.widget ol,
+.article-entry ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+  overflow: hidden;
+}
+.article-single {
+  padding: 0;
+}
+.article-row {
+  float: none;
+  padding: 0 0px 0px 0;
+}
+.article-city-title h1 {
+  font-size: 18px;
+  border-bottom: 1px solid #eee;
+  line-height: 40px;
+  font-weight: normal;
+  text-indent: 2em;
+}
+.article-city-inner {
+  padding: 0px 20px;
+}
+.article-footer {
+  padding: 30px 0 0 30px;
+}
+.article-item {
+  clear: both;
+  overflow: hidden;
+}
+.useinfo-word {
+  margin-top: 10px;
+}
+.article-area .userinfo-content .desc {
+  margin-top: 20px;
+}
+.article-area .userinfo-content .desc-info {
+  line-height: 30px;
+}
+.article-city {
+  padding-top: 10px;
+}
+
+/*
+    作品展示模块
+*/
+.container {
+    width: 100%;
+    max-width : 1200px;
+}
+.container * {
+    box-sizing: border-box;
+}
+[class *= 'cols-'] {
+    float: left;
+    min-height: 1px;
+    padding: 12px;
+}
+@media(max-width:768px){ /* 屏幕宽度大于768px时候 */
+    .cols-sm-1{  width: 8.333333333%;  }
+    .cols-sm-2{  width: 16.66666667%;  }
+    .cols-sm-3{  width: 25%;  }
+    .cols-sm-4{  width: 33.33333333%;  }
+    .cols-sm-5{  width: 41.66666667%;  }
+    .cols-sm-6{  width: 50%;  }
+    .cols-sm-7{  width: 58.33333333%;  }
+    .cols-sm-8{  width: 66.66666667%;  }
+    .cols-sm-9{  width:75%;  }
+    .cols-sm-10{  width:83.33333333%;  }
+    .cols-sm-11{  width:91.66666667%;  }
+    .cols-sm-12{  width:100%;  }
+
+}
+@media(min-width:768px){ /* 屏幕宽度大于768px时候 */
+    .cols-md-1{  width: 8.333333333%;  }
+    .cols-md-2{  width: 16.66666667%;  }
+    .cols-md-3{  width: 25%;  }
+    .cols-md-4{  width: 33.33333333%;  }
+    .cols-md-5{  width: 41.66666667%;  }
+    .cols-md-6{  width: 50%;  }
+    .cols-md-7{  width: 58.33333333%;  }
+    .cols-md-8{  width: 66.66666667%;  }
+    .cols-md-9{  width:75%;  }
+    .cols-md-10{  width:83.33333333%;  }
+    .cols-md-11{  width:91.66666667%;  }
+    .cols-md-12{  width:100%;  }
+}
+@media(min-width:470px){ /* 屏幕宽度大于768px时候 */
+    .cols-lg-1{  width: 8.333333333%;  }
+    .cols-lg-2{  width: 16.66666667%;  }
+    .cols-lg-3{  width: 25%;  }
+    .cols-lg-4{  width: 33.33333333%;  }
+    .cols-lg-5{  width: 41.66666667%;  }
+    .cols-lg-6{  width: 50%;  }
+    .cols-lg-7{  width: 58.33333333%;  }
+    .cols-lg-8{  width: 66.66666667%;  }
+    .cols-lg-9{  width:75%;  }
+    .cols-lg-10{  width:83.33333333%;  }
+    .cols-lg-11{  width:91.66666667%;  }
+    .cols-lg-12{  width:100%;  }
+}
+.works-box .worls-list{
+    border:1px solid #aaa;
+    cursor:pointer;
+}
+.works-box li img{
+    width:100%;
+    height:150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
