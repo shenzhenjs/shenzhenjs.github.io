@@ -5,6 +5,7 @@ type: "categories"
 categories: 作品展示
 ---
 <link rel="stylesheet" type="text/css" href="/css/my/common.css"/>
+<link rel="stylesheet" type="text/css" href="/css/my/work.css"/>
 <div class="article-row">
     <article class="article article-summary">
         <div class="article-summary-inner">
@@ -23,10 +24,21 @@ categories: 作品展示
         `<div class="works-box clearfix container">
             <div v-for="(item, index) in allWorksInfo" class="cols-sm-6 cols-md-3 cols-lg-12">
                 <div class="worls-list">
-                    <img :src="item.works_img" :title="item.works_img">
-                    <p v-text="item.works_name" :title="item.works_name"></p>
-                    <p v-text="item.works_desc" :title="item.works_desc"></p>
-                    <p v-text="item.user_name" :title="item.user_name"></p>
+                    <a :href="item.works_url" class="works-img" target="_blank">
+                        <img :src="item.works_img" :title="item.works_img">
+                    </a>
+                    <div class="works-subhead">
+                        <h2><a :href="item.works_url" target="_blank" v-text="item.works_name" :title="item.works_name"></a></h2>
+                        <p class="works_desc" v-text="item.works_desc" :title="item.works_desc"></p>
+                        <div class="works_assist">
+                            <div class="works_tag_wrap">
+                                <i class="icon icon-lg icon-book"></i><span class="tag" :href="item.works_tag" target="_blank" v-text="item.works_tag" :title="item.tag"></span>
+                            </div>
+                            <div class="blog_wrap">
+                                <i class="icon icon-lg icon-user-o"></i><a class="blog" :href="item.works_blog" target="_blank" v-text="item.user_name" :title="item.user_name"></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>`
