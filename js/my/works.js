@@ -3,7 +3,7 @@
  * @description:
  * @Date: 2017/3/10 14:16
  */
-(function($){
+(function($, window){
     'use strict'
 
     window.App = window.App || {}
@@ -19,9 +19,11 @@
         },
 
         __initVue: function () {
+            console.log(document.getElementById('tpl-works-list').innerHTML)
             var self = this,
                 allworksComponents = {
-                    template: tplWorksList,
+                    // template: tplWorksList,
+                    template: document.getElementById('tpl-works-list').innerHTML,
                     props: ['allWorksInfo']
                 }
 
@@ -62,4 +64,4 @@
     App.works.init();
 
 
-}(jQuery))
+}(jQuery, window))
